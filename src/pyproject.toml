@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "knowledge-graph"
+version = "0.1.0"
+description = "Financial Knowledge Graph with Neo4j"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{ include = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.0"
+neo4j = "^5.23.0"
+openpyxl = "^3.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
